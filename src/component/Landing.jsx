@@ -12,36 +12,36 @@ const Landing = () => {
   
   return (
     <>
-    <div  class="leading-normal tracking-normal text-white gradient " style={{fontFamily: "'Source Sans Pro', sans-serif"}}>
-    <div class="pt-5">
-      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <div  className="leading-normal tracking-normal text-white gradient " style={{fontFamily: "'Source Sans Pro', sans-serif"}}>
+    <div className="pt-5">
+      <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         {/* <!--Left Col--> */}
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          {/* <p class="uppercase tracking-loose w-full">What is the 411?</p> */}
-          <h1 class="my-2 text-5xl lg:text-6xl font-bold leading-tight mx-auto animate__animated animate__bounce">
+        <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+          {/* <p className="uppercase tracking-loose w-full">What is the 411?</p> */}
+          <h1 className="my-2 text-5xl lg:text-6xl font-bold leading-tight mx-auto animate__animated animate__bounce">
             What is the 411?
           </h1>
           {/* <h1 className='mx-auto mt-0 max-w-md text-center text-5xl lg:text-1xl text-gray-100 '>What is the 411?</h1> */}
 
-          <p class="leading-normal text-1xl lg:text-2xl mb-1 mx-auto animate__animated  animate__zoomIn">
+          <p className="leading-normal text-1xl lg:text-2xl mb-1 mx-auto animate__animated  animate__zoomIn">
             We are a big media brand in Africa!
           </p>
           <Link to={"/home"}>
-          <button class="mx-auto ml-28 lg:mx-0 hover:underline bg-white text-black font-bold rounded-full my-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out animate__animated animate__shakeX">
+          <button className="mx-auto ml-28 lg:mx-0 hover:underline bg-white text-black font-bold rounded-full my-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out animate__animated animate__shakeX">
             Blogs
           </button>
           </Link>
         </div>
         {/* <!--Right Col--> */}
-        <div class="w-full md:w-3/5 py-5 text-center">
-          <img class=" md:w-4/5 w-4/5 z-50" src={myImage} />
+        <div className="w-full md:w-3/5 py-5 text-center">
+          <img className=" md:w-4/5 w-4/5 z-50" src={myImage} />
         </div>
       </div>
     </div>
-    <div class="relative -mt-16 lg:-mt-28">
+    <div className="relative -mt-16 lg:-mt-28">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+          <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fillRule="nonzero">
             <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
             <path
               d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
@@ -49,7 +49,7 @@ const Landing = () => {
             ></path>
             <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
           </g>
-          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fillRule="nonzero">
             <path
               d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
             ></path>
@@ -58,31 +58,31 @@ const Landing = () => {
       </svg>
     </div>
 
-    <section class="bg-white border-b py-8">
-      <div class="container max-w-5xl mx-auto m-8">
-        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
+    <section className="bg-white border-b py-8">
+      <div className="container max-w-5xl mx-auto m-8">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
           Objectives
         </h1>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        <div className="w-full mb-4">
+          <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-black font-bold leading-none mb-3">
+        <div className="flex flex-wrap">
+          <div className="w-5/6 sm:w-1/2 p-6">
+            <h3 className="text-3xl text-black font-bold leading-none mb-3">
               About
             </h3>
-            <p class="text-black mb-8">
+            <p className="text-black mb-8">
               What is the 411? is an entertainment and recreation group that promotes creativity through podcasting, animation videos, interesting and hilarious blog posts that keeps the mind away from worries.
               <br />
               <br />
 
               {/* <!-- Images from: -->
 
-              <!-- <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
+              <!-- <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
             </p>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
+          <div className="w-full sm:w-1/2 p-6">
+            <svg className="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
               <title>travel booking</title>
               <path
                 transform="translate(-11.5 -150.75)"
@@ -209,9 +209,9 @@ const Landing = () => {
             </svg>
           </div>
         </div>
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <svg class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
+        <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+          <div className="w-full sm:w-1/2 p-6 mt-6">
+            <svg className="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
               <title>connected world</title>
               <path
                 transform="translate(-11.697 -13.011)"
@@ -359,37 +359,37 @@ const Landing = () => {
               <circle cx="600.35" cy="480.68" r="11.968" fill="#ff6347" />
             </svg>
           </div>
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <div class="align-middle">
-              <h3 class="text-3xl text-black font-bold leading-none mb-3">
+          <div className="w-full sm:w-1/2 p-6 mt-6">
+            <div className="align-middle">
+              <h3 className="text-3xl text-black font-bold leading-none mb-3">
                 MISSION
               </h3>
-              <p class="text-black mb-8">
+              <p className="text-black mb-8">
                 The 411 Squad is on a peacekeeping mission to eliminate your fears and worries from the turbulent life crises. This is because, everyone deserves to be happy!                <br />
                 <br />
                 {/* <!-- Images from:
 
-                <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
+                <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
               </p>
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-black font-bold leading-none mb-3">
+        <div className="flex flex-wrap">
+          <div className="w-5/6 sm:w-1/2 p-6">
+            <h3 className="text-3xl text-black font-bold leading-none mb-3">
               GOAL
             </h3>
-            <p class="text-black mb-8">
+            <p className="text-black mb-8">
               We want to have positive influence on our audience, unlock their creative minds and build a bigger creative industry.              <br />
               <br />
 
               {/* <!-- Images from: --> */}
 
-              {/* <!-- <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
+              {/* <!-- <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a> --> */}
             </p>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
+          <div className="w-full sm:w-1/2 p-6">
+            <svg className="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
               <title>travel booking</title>
               <path
                 transform="translate(-11.5 -150.75)"
@@ -518,79 +518,79 @@ const Landing = () => {
         </div>
       </div>
     </section>
-    <section class="bg-white border-b py-8">
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
+    <section className="bg-white border-b py-8">
+      <div className="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-black">
           WHAT WE OFFER
         </h1>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        <div className="w-full mb-4">
+          <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-black text-xs md:text-sm px-6">
+        <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" className="flex flex-wrap no-underline hover:no-underline">
+              <p className="w-full text-black text-xs md:text-sm px-6">
                 PODCAST
               </p>
-              <div class="w-full font-bold text-xl text-black px-6">
+              <div className="w-full font-bold text-xl text-black px-6">
                 The contents we give are inspiring.
               </div>
-              <p class="text-black text-base px-6 mb-5">
+              <p className="text-black text-base px-6 mb-5">
                 The WHAT IS THE 411? podcast explores the stories, insights, and ideas that shape our community and brand. We will examine a range of subjects, such as the most recent developments and trends in our industry as well as the unique experiences of our team members and partners.
               </p>
             </a>
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-start">
+          <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div className="flex items-center justify-start">
               <Link to={"/podcast"}>
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Check 
               </button>
               </Link>
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-black text-xs md:text-sm px-6">
+        <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" className="flex flex-wrap no-underline hover:no-underline">
+              <p className="w-full text-black text-xs md:text-sm px-6">
                 Blogs
               </p>
-              <div class="w-full font-bold text-xl text-black px-6">
-                WHAT IS THE 411? classic stories and ideas.
+              <div className="w-full font-bold text-xl text-black px-6">
+                WHAT IS THE 411? classNameic stories and ideas.
               </div>
-              <p class="text-black text-base px-6 mb-5">
+              <p className="text-black text-base px-6 mb-5">
                 At WHAT IS THE 411?, we value personal connections with our readers and the value of effective storytelling.We welcome reader feedback and invite them to participate in spirited conversations in the comments section.
               </p>
             </a>
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-center">
+          <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div className="flex items-center justify-center">
               <Link to={"/home"}>
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Check
               </button>
               </Link>
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-black text-xs md:text-sm px-6">
+        <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" className="flex flex-wrap no-underline hover:no-underline">
+              <p className="w-full text-black text-xs md:text-sm px-6">
                 Videos
               </p>
-              <div class="w-full font-bold text-xl text-black px-6">
+              <div className="w-full font-bold text-xl text-black px-6">
                 The cool stuffs are here.
               </div>
-              <p class="text-black text-base px-6 mb-5">
+              <p className="text-black text-base px-6 mb-5">
                 We give our articles a new life in the video channel. While giving you a fresh take on the subjects that are most important to you, our movies are made to inspire, inform, and educate you.              </p>
             </a>
           </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-end">
+          <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div className="flex items-center justify-end">
               <Link to={"/video"}>
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Check
               </button>
               </Link>
@@ -601,16 +601,16 @@ const Landing = () => {
     </section>
 
 
-    <section class="pb-20 bg-white -mt-30">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap">
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+    <section className="pb-20 bg-white -mt-30">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap">
+          <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
-              <div class="px-4 py-5 flex-auto">
+              <div className="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
+                  className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
                 >
                   <Link to={"/about"}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -621,68 +621,68 @@ const Landing = () => {
 
                 </div>
 
-                <h6 class="text-xl font-semibold text-black">Contact us</h6>
-                <p class="mt-2 mb-4 text-black">
+                <h6 className="text-xl font-semibold text-black">Contact us</h6>
+                <p className="mt-2 mb-4 text-black">
                   The website is devoted to giving you the most recent information, advice, and viewpoints about the topic of the website. Join our group to keep current on the newest trends, meet like-minded people, and participate in stimulating debates. 
                   {/* <span className='w-20 bg-blue-800'>fjgnf</span> */}
                   <button className='buttonn mx-auto'>
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">M</div>
-                      {/* <div class="card_facee backk"><i class="fab fa-github-square"></i></div> */}
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">M</div>
+                      {/* <div className="card_facee backk"><i className="fab fa-github-square"></i></div> */}
                     </div>
                   </div>
 
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">E</div>
-                      <div class="card_facee backk">
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">E</div>
+                      <div className="card_facee backk">
                   <Link to="https://www.youtube.com/@_thx411">
-                        <i class="fab fa-youtube"></i>
+                        <i className="fab fa-youtube"></i>
                   </Link>
                       </div>
                     </div>
                   </div>
 
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">D</div>
-                      <div class="card_facee backk">
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">D</div>
+                      <div className="card_facee backk">
                   <Link to="https://www.tiktok.com/@thx411_">
-                        <i class="fab fa-tiktok"></i>
+                        <i className="fab fa-tiktok"></i>
                   </Link>
                       </div>
                     </div>
                   </div>
 
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">I</div>
-                      <div class="card_facee backk">
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">I</div>
+                      <div className="card_facee backk">
                   <Link to={"https://www.instagram.com/_thx411/"}>
-                        <i class="fab fa-instagram-square"></i>
+                        <i className="fab fa-instagram-square"></i>
                   </Link>
                       </div>
                     </div>
                   </div>
 
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">A</div>
-                      <div class="card_facee backk">
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">A</div>
+                      <div className="card_facee backk">
                   <Link to={"https://twitter.com/_thx411"}>
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                   </Link>
                       </div>
                     </div>
                   </div>
 
 
-                  <div class="letterss">
-                    <div class="cardd">
-                      <div class="card_facee front">S</div>
-                      <div class="card_facee backk">
-                        {/* <i class="fab fa-linkedin"></i> */}
+                  <div className="letterss">
+                    <div className="cardd">
+                      <div className="card_facee front">S</div>
+                      <div className="card_facee backk">
+                        {/* <i className="fab fa-linkedin"></i> */}
                       </div>
                     </div>
                   </div>
@@ -692,13 +692,13 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div className="w-full md:w-4/12 px-4 text-center">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
-              <div class="px-4 py-5 flex-auto">
+              <div className="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
+                  className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
                 >
                    <Link to={"/about"}>
                     
@@ -710,20 +710,20 @@ const Landing = () => {
                 
                 
                 </div>
-                <h6 class="text-xl font-semibold text-black">Advertise with us</h6>
-                <p class="mt-2 mb-4 text-black">
+                <h6 className="text-xl font-semibold text-black">Advertise with us</h6>
+                <p className="mt-2 mb-4 text-black">
                   By placing an ad with the WHAT IS THE 411?, you can connect with readers who are specifically interested in your product or service. To ensure that your advertising message is compelling and effective, our team will collaborate with you.
                 </p>
               </div>
             </div>
           </div>
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div className="pt-6 w-full md:w-4/12 px-4 text-center">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
             >
-              <div class="px-4 py-5 flex-auto">
+              <div className="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
+                  className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full gradient"
                 >
                    <Link to={"/about"}>
 
@@ -735,8 +735,8 @@ const Landing = () => {
                 
                 
                 </div>
-                <h6 class="text-xl font-semibold text-black">Policy</h6>
-                <p class="mt-2 mb-4 text-black">
+                <h6 className="text-xl font-semibold text-black">Policy</h6>
+                <p className="mt-2 mb-4 text-black">
                   We can request contact or identification information about you while you are on our site. A few examples of personally identifiable information include your name, email address, and other contact details.!
                 </p>
               </div>
@@ -744,63 +744,63 @@ const Landing = () => {
           </div>
         </div>
         
-        <div class="flex flex-wrap items-center mt-32">
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+        <div className="flex flex-wrap items-center mt-32">
+          <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
             {/* <div
-              class="text-blue-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full gradient"
+              className="text-blue-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full gradient"
             >
-              <i class="fas fa-user-friends text-xl"></i>
+              <i className="fas fa-user-friends text-xl"></i>
             </div> */}
             <img src={logo} alt=""  className='w-16 h-16 text-center'/>
 
-            <h3 class="text-3xl mb-2 font-semibold leading-normal text-black">
+            <h3 className="text-3xl mb-2 font-semibold leading-normal text-black">
               Working with us is a pleasure
             </h3>
             <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-black"
+              className="text-lg font-light leading-relaxed mt-4 mb-4 text-black"
             >
               We attach great importance to providing a personalized service to our customers. We will work closely with you immediately to understand your needs and goals.
             </p>
             <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-black"
+              className="text-lg font-light leading-relaxed mt-0 mb-4 text-black"
             >
                We take the time to listen to your ideas, answer your questions and make suggestions based on our experience. You can be assured that you will get exactly what you want and be satisfied with the results.
             </p>
             {/* <a
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-              class="font-bold text-black mt-8"
+              className="font-bold text-black mt-8"
               >Check Tailwind Starter Kit!</a
             > */}
           </div>
 
 
 
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
             <div
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+              className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
             >
               <img
                 alt="..."
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
-                class="w-full align-middle rounded-t-lg"
+                className="w-full align-middle rounded-t-lg"
               />
-              <blockquote class="relative p- mb-">
+              <blockquote className="relative p- mb-">
                 <svg
                   preserveAspectRatio="none"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 583 95"
-                  class="absolute left-0 w-full block"
+                  className="absolute left-0 w-full block"
                   style={{height: "95px; top: -94px;"}}
                 >
                   <polygon
                     points="-30,95 583,95 583,65"
-                    class="text-blue-600 fill-current"
+                    className="text-blue-600 fill-current"
                   ></polygon>
                 </svg>
-                {/* <!-- <h4 class="text-xl font-bold text-white">
+                {/* <!-- <h4 className="text-xl font-bold text-white">
                   Top Notch Services
                 </h4> -->
-                <!-- <p class="text-md font-light mt-2 text-white">
+                <!-- <p className="text-md font-light mt-2 text-white">
                   The Arctic Ocean freezes every winter and much of the
                   sea-ice then thaws every su lormmer, and that process will
                   continue whatever happens. lorem300
@@ -812,10 +812,10 @@ const Landing = () => {
       </div>
     </section>
     {/* <!-- Change the colour #f8faf/c to match the previous section colour --> */}
-    {/* <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
+    {/* <svg className="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+        <g transform="translate(-1.000000, -14.000000)" fillRule="nonzero">
+          <g className="wave" fill="#f8fafc">
             <path
               d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
             ></path>

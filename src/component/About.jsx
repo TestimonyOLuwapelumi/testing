@@ -13,37 +13,37 @@ const About = ({allAbout}) => {
   return (
     <>
           
-<div class="max-w-screen-lg mx-auto mb-0">
+<div className="max-w-screen-lg mx-auto mb-0">
     
    
 
-    <main class="mt-2">
+    <main className="mt-2">
     {/* {allAbout.map((about)=> */}
       <div>
-      <div class="mb-0 md:mb-0 w-full mx-auto relative">
+      <div className="mb-0 md:mb-0 w-full mx-auto relative">
 
-        {/* <div class="px-4 lg:px-0">
+        {/* <div className="px-4 lg:px-0">
          
           <a 
             href="#"
-            class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
+            className="py-2 text-green-700 inline-flex items-center justify-center mb-2"
           >
             
           </a>
         </div> */}
         {/* style={{height: "18em"}} */}
-        {/* <img src={about.attributes.aboutImg.data.attributes.url} class="lg:w-full mx-auto w-96 object-cover lg:rounded lg:h-72  h-36" /> */}
+        {/* <img src={about.attributes.aboutImg.data.attributes.url} className="lg:w-full mx-auto w-96 object-cover lg:rounded lg:h-72  h-36" /> */}
       </div>
-        <h1 class="lg:text-4xl text-2xl font-semibold text-gray-900 px-4 lg:px-0 py-1">
+        <h1 className="lg:text-4xl text-2xl font-semibold text-gray-900 px-4 lg:px-0 py-1">
             {/* {about.attributes.aboutTitle} */}
             WHAT     IS     THE     411? 
           </h1>
           {/* <h1 className='mx-auto mt-0 max-w-md text-center text-2xl lg:text-1xl text-gray-100 '>What is the 411?</h1> */}
 
 
-      <div class="flex flex-col lg:flex-row lg:space-x-12 border">
+      <div className="flex flex-col lg:flex-row lg:space-x-12 border">
 
-        <div class="px-4 lg:px-0 mt-3 text-gray-900 text-lg leading-relaxed w-full lg:w-3/4">
+        <div className="px-4 lg:px-0 mt-3 text-gray-900 text-lg leading-relaxed w-full lg:w-3/4">
 {/*   
         {about.attributes.aboutContent} */}
         {/* <ReactMarkdown className='line-break'>
@@ -56,13 +56,13 @@ We want to have positive influence on our audience, unlock their creative minds 
 
         </ReactMarkdown> */}
        
-        <p class="pb-6">
+        <p className="pb-6">
         In today's digital and information age, online entertainment has proven beyond doubt, to be the easiest panacea to help the human mind relax and cool off from the hustle and bustle of life.
 Therefore, it goes that, even in the midst of emerging content creators in the industry, there will never be enough contents for the creative industry. Hence, the birth of this amazing and unique brand, What is the 411?
 
             </p>
             <h2>ABOUT </h2>
-        <p class="pb-6">
+        <p className="pb-6">
        
 What is the 411? is an entertainment and recreation group that promotes creativity through podcasting, animation videos, interesting and hilarious blog posts that keeps the mind away from worries.
 
@@ -71,7 +71,7 @@ What is the 411? is an entertainment and recreation group that promotes creativi
 
         MISSION
             </h2>
-        <p class="pb-6">
+        <p className="pb-6">
 The 411 Squad is on a peacekeeping mission to eliminate your fears and worries from the turbulent life crises. This is because, everyone deserves to be happy!
 
             </p>
@@ -79,7 +79,7 @@ The 411 Squad is on a peacekeeping mission to eliminate your fears and worries f
 
         GOAL
             </h2>
-        <p class="pb-6">
+        <p className="pb-6">
 We want to have positive influence on our audience, unlock their creative minds and build a bigger creative industry.
 
             </p>
@@ -88,20 +88,20 @@ We want to have positive influence on our audience, unlock their creative minds 
        
           
 
-          {/* <p class="pb-6">{about.attributes.aboutDesc}</p> 
+          {/* <p className="pb-6">{about.attributes.aboutDesc}</p> 
 
-          <p class="pb-6">{about.attributes.motto}</p>  */}
-          <p class="pb-6">WHAT IS THE 411?. 2023 ALL RIGHTS RESERVED.
+          <p className="pb-6">{about.attributes.motto}</p>  */}
+          <p className="pb-6">WHAT IS THE 411?. 2023 ALL RIGHTS RESERVED.
 </p> 
 
-          {/* <p class="pb-6">{about.attributes.motto}</p>  */}
+          {/* <p className="pb-6">{about.attributes.motto}</p>  */}
         </div>
 
-        <aside class="w-full md:w-1/3 sm:w-24 flex lg:flex-col  flex-col-1 items-center px-3 lg:space-x-0 space-x-3  lg:mx-0">
-        <div class="lg:w-full w-20 h-20  lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center cardd ">
-            {/* <p class="lg:text-xl text-sm lg:font-semibold lg:pb-5 pb-0 font-xs">Social Medias</p> */}
+        <aside className="w-full md:w-1/3 sm:w-24 flex lg:flex-col  flex-col-1 items-center px-3 lg:space-x-0 space-x-3  lg:mx-0">
+        <div className="lg:w-full w-20 h-20  lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center cardd ">
+            {/* <p className="lg:text-xl text-sm lg:font-semibold lg:pb-5 pb-0 font-xs">Social Medias</p> */}
         <Link to={"https://www.instagram.com/_thx411/"}>
-            <div class="grid grid-cols-1 gap-3">
+            <div className="grid grid-cols-1 gap-3">
               
                 <svg
                     fill="#1B3A9F" className='lg:w-24 lg:h-24 h-8 w-8' 
@@ -118,21 +118,21 @@ We want to have positive influence on our audience, unlock their creative minds 
             </div>
         </Link>
         <Link to={"https://www.instagram.com/_thx411/"}>
-            <a href="#" class="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-0  hidden lg:block">
+            <a href="#" className="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-0  hidden lg:block">
                 @_thx411
             </a>
             </Link>
-            <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
         
 
         </div>
-        <div class="lg:w-full w-20 h-20  lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center cardd">
-            {/* <p class="lg:text-xl text-sm font-semibold pb-5">Social Medias</p> */}
+        <div className="lg:w-full w-20 h-20  lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center cardd">
+            {/* <p className="lg:text-xl text-sm font-semibold pb-5">Social Medias</p> */}
         <Link to={"https://twitter.com/_thx411"}>
-            <div class="grid grid-cols-1 gap-3 flex items-center justify-center">
+            <div className="grid grid-cols-1 gap-3 flex items-center justify-center">
               
                 <svg
                     fill="#1B3A9F" className='lg:w-24 lg:h-24 h-8 w-8' 
@@ -147,19 +147,19 @@ We want to have positive influence on our audience, unlock their creative minds 
             </div>
         </Link>
         <Link to={"https://twitter.com/_thx411"}>
-            <a class="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-1xl  hidden lg:block">
+            <a className="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-1xl  hidden lg:block">
             @_thx411
             </a>
             </Link>
-            <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
         </div>
-        <div class="lg:w-full w-20 h-20 lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center  cardd">
-            {/* <p class="lg:text-xl text-sm font-semibold pb-5">Social Medias</p> */}
+        <div className="lg:w-full w-20 h-20 lg:h-full bg-white shadow flex flex-col my-4 p-6 text-center flex items-center justify-center  cardd">
+            {/* <p className="lg:text-xl text-sm font-semibold pb-5">Social Medias</p> */}
         <Link to="https://www.tiktok.com/@thx411_">
-            <div class="grid grid-cols-1 gap-3">
+            <div className="grid grid-cols-1 gap-3">
               
               
                   <svg fill="#1B3A9F" className='lg:w-24 lg:h-24 h-8 w-8'  viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg">
@@ -168,14 +168,14 @@ We want to have positive influence on our audience, unlock their creative minds 
             </div>
         </Link>
         <Link to="https://www.tiktok.com/@thx411_">
-            <a  class="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-1xl  hidden lg:block">
+            <a  className="lg:w-full w-20 bg-blue-800 text-white font-semibold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center lg:px-2 lg:py-3 py-0 px-0 mt-0 lg:mt-6 lg:text-3xl text-1xl  hidden lg:block">
             @_thx411
             </a>
             </Link>
-            <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
         </div>
 
         </aside>

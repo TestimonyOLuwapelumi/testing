@@ -15,20 +15,20 @@ const Blogj = ({allDatab}) => {
 
     {allDatab.map((blog)=>
         <Link to={`/blog/${blog.id}`}>
-    <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+    <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${blog.attributes.blogImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#blogs</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#blogs</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{blog.attributes.blogDesc}</div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@ const Blogj = ({allDatab}) => {
 					<span className="text-xs ">{blog.attributes.blogDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a> 
        </Link>
        )}

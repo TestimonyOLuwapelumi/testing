@@ -67,10 +67,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{personality.attributes.personalityDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
     )}
@@ -87,10 +87,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{humour.attributes.humourDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
        </Link>
        )}
@@ -107,10 +107,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{imagination.attributes.imaginationDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
        )}
@@ -130,20 +130,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
     {personality2.map((personality)=>
      <Link to={`/personality/${personality.id}`}>
-    <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+    <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${personality.attributes.personalImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Personality Test</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Personality Test</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{personality.attributes.personalityDesc}</div>
                         </div>
                     </div>
@@ -159,10 +159,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{personality.attributes.personalityDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a> 
       </Link>
        )}
@@ -171,20 +171,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
        {humour2.map((humour)=>
      <Link to={`/humour/${humour.id}`}>
-      <div class="lg:hidden ">
-            <div class="bg-white h-full w-full border-b-2">
+      <div className="lg:hidden ">
+            <div className="bg-white h-full w-full border-b-2">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${humour.attributes.humourImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Humour</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{humour.attributes.humourTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Humour</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{humour.attributes.humourTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{humour.attributes.humourDesc}</div>
                         </div>
                     </div>
@@ -200,10 +200,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{humour.attributes.humourDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
       )}
@@ -211,20 +211,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
       {imagination2.map((imagination)=>
      <Link to={`/imagination/${imagination.id}`}>
-      <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+      <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${imagination.attributes.imaginationImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Imagination</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{imagination.attributes.imaginationTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Imagination</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{imagination.attributes.imaginationTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{imagination.attributes.imaginationDesc}</div>
                         </div>
                     </div>
@@ -240,10 +240,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{imagination.attributes.imaginationDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
       )}
@@ -251,20 +251,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
       {personality3.map((personality)=>
      <Link to={`/personality/${personality.id}`}>
-      <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+      <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${personality.attributes.personalImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Personality Test</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Personality Test</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{personality.attributes.personalityDesc}</div>
                         </div>
                     </div>
@@ -280,10 +280,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{personality.attributes.personalityDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
        </Link>
        )}
@@ -294,20 +294,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 	</div>
 </section>
 
-{/* <div class="lg:hidden ">
-            <div class="bg-white h-full w-full ">
+{/* <div className="lg:hidden ">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${"https://source.unsplash.com/200x200/?fashion?1"})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">MUSIC</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">MUSIC</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>Rowena Wheeler</div>
                         </div>
                     </div>
@@ -333,10 +333,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{humour.attributes.humourDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
        )}
@@ -350,10 +350,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{imagination.attributes.imaginationDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
       </Link>
        )}
@@ -367,10 +367,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{personality.attributes.personalityDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a>
        </Link>
        )}
@@ -407,20 +407,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
     {blog.map((blog)=>
      <Link to={`/blog/${blog.id}`}>
-    <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+    <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${blog.attributes.blogImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Newupdate</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Newupdate</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{blog.attributes.blogDesc}</div>
                         </div>
                     </div>
@@ -456,10 +456,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
           </p>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a> 
       </Link>
     )}
@@ -493,20 +493,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 		<div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
     {personality5.map((personality)=>
      <Link to={`/personality/${personality.id}`}>
-    <div class="lg:hidden border-b-2">
-            <div class="bg-white h-full w-full ">
+    <div className="lg:hidden border-b-2">
+            <div className="bg-white h-full w-full ">
               <div>
-                <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                    <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                    <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
         backgroundImage: `url(${personality.attributes.personalImg.data.attributes.url})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}></div>
-                    <div class="pl-3 w-3/5">
-                        <p class="text-xs text-gray-500 uppercase">#Personality Test</p>
-                        <h3 class="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
-                        <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                    <div className="pl-3 w-3/5">
+                        <p className="text-xs text-gray-500 uppercase">#Personality Test</p>
+                        <h3 className="text-md font-semibold leading-tight mb-3">{personality.attributes.personalityTitle}</h3>
+                        <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                             <div>{personality.attributes.personalityDesc}</div>
                         </div>
                     </div>
@@ -522,30 +522,30 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 					<span className="text-xs ">{personality.attributes.personalityDesc}</span>
 					<p></p>
 				</div>
-        <span class="spann topp"></span>
-      <span class="spann rightt"></span>
-      <span class="spann bottomm"></span>
-      <span class="spann leftt"></span>
+        <span className="spann topp"></span>
+      <span className="spann rightt"></span>
+      <span className="spann bottomm"></span>
+      <span className="spann leftt"></span>
 			</a> 
       </Link>
        )}
 
     {humour4.map((humour)=>
         <Link to={`/humour/${humour.id}`}>
-          <div class="lg:hidden ">
-                <div class="bg-white h-full w-full border-b-2">
+          <div className="lg:hidden ">
+                <div className="bg-white h-full w-full border-b-2">
                   <div>
-                    <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                        <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                    <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                        <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
             backgroundImage: `url(${humour.attributes.humourImg.data.attributes.url})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}></div>
-                        <div class="pl-3 w-3/5">
-                            <p class="text-xs text-gray-500 uppercase">#Humour</p>
-                            <h3 class="text-md font-semibold leading-tight mb-3">{humour.attributes.humourTitle}</h3>
-                            <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                        <div className="pl-3 w-3/5">
+                            <p className="text-xs text-gray-500 uppercase">#Humour</p>
+                            <h3 className="text-md font-semibold leading-tight mb-3">{humour.attributes.humourTitle}</h3>
+                            <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                                 <div>{humour.attributes.humourDesc}</div>
                             </div>
                         </div>
@@ -561,10 +561,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
               <span className="text-xs ">{humour.attributes.humourDesc}</span>
               <p></p>
             </div>
-            <span class="spann topp"></span>
-          <span class="spann rightt"></span>
-          <span class="spann bottomm"></span>
-          <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+          <span className="spann rightt"></span>
+          <span className="spann bottomm"></span>
+          <span className="spann leftt"></span>
           </a>
           </Link>
           )}
@@ -591,20 +591,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
     {imagination4.map((imagination)=>
         <Link to={`/imagination/${imagination.id}`}>
-          <div class="lg:hidden border-b-2">
-                <div class="bg-white h-full w-full ">
+          <div className="lg:hidden border-b-2">
+                <div className="bg-white h-full w-full ">
                   <div>
-                    <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                        <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                    <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                        <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
             backgroundImage: `url(${imagination.attributes.imaginationImg.data.attributes.url})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}></div>
-                        <div class="pl-3 w-3/5">
-                            <p class="text-xs text-gray-500 uppercase">#Imagination</p>
-                            <h3 class="text-md font-semibold leading-tight mb-3">{imagination.attributes.imaginationTitle}</h3>
-                            <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                        <div className="pl-3 w-3/5">
+                            <p className="text-xs text-gray-500 uppercase">#Imagination</p>
+                            <h3 className="text-md font-semibold leading-tight mb-3">{imagination.attributes.imaginationTitle}</h3>
+                            <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                                 <div>{imagination.attributes.imaginationDesc}</div>
                             </div>
                         </div>
@@ -620,10 +620,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
               <span className="text-xs ">{imagination.attributes.imaginationDesc}</span>
               <p></p>
             </div>
-            <span class="spann topp"></span>
-          <span class="spann rightt"></span>
-          <span class="spann bottomm"></span>
-          <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+          <span className="spann rightt"></span>
+          <span className="spann bottomm"></span>
+          <span className="spann leftt"></span>
           </a>
           </Link>
           )}
@@ -631,20 +631,20 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
     {blog1.map((blog)=>
      <Link to={`/blog/${blog.id}`}>
-          <div class="lg:hidden border-b-2">
-                <div class="bg-white h-full w-full ">
+          <div className="lg:hidden border-b-2">
+                <div className="bg-white h-full w-full ">
                   <div>
-                    <a href="#" class="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
-                        <div class="block h-30 w-2/5 rounded overflow-hidden"     style={{
+                    <a href="#" className="flex w-full transform transition-all duration-300 scale-100 hover:scale-95">
+                        <div className="block h-30 w-2/5 rounded overflow-hidden"     style={{
             backgroundImage: `url(${blog.attributes.blogImg.data.attributes.url})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}></div>
-                        <div class="pl-3 w-3/5">
-                            <p class="text-xs text-gray-500 uppercase">#Newupdate</p>
-                            <h3 class="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
-                            <div class="flex w-full items-center text-xs text-gray-500 font-medium">
+                        <div className="pl-3 w-3/5">
+                            <p className="text-xs text-gray-500 uppercase">#Newupdate</p>
+                            <h3 className="text-md font-semibold leading-tight mb-3">{blog.attributes.blogTitle}</h3>
+                            <div className="flex w-full items-center text-xs text-gray-500 font-medium">
                                 <div>{blog.attributes.blogDesc}</div>
                             </div>
                         </div>
@@ -660,10 +660,10 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
               <span className="text-xs ">{blog.attributes.blogDesc}</span>
               <p></p>
             </div>
-            <span class="spann topp"></span>
-          <span class="spann rightt"></span>
-          <span class="spann bottomm"></span>
-          <span class="spann leftt"></span>
+            <span className="spann topp"></span>
+          <span className="spann rightt"></span>
+          <span className="spann bottomm"></span>
+          <span className="spann leftt"></span>
           </a>
           </Link>
           )}
@@ -687,18 +687,18 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
 
 
 
-<div class="antialiased font-nunito bg-blue-800 flex items-center justify-center h-screen">
+<div className="antialiased font-nunito bg-blue-800 flex items-center justify-center h-screen">
    
  
-    <div class="container px-4 sm:px-8 mx-auto max-w-lg">
+    <div className="container px-4 sm:px-8 mx-auto max-w-lg">
 
        
-        <div class="wrapper bg-white rounded-sm shadow-lg">
+        <div className="wrapper bg-white rounded-sm shadow-lg">
 
-            <div class="card px-8 py-4">
-                <div class="card-image mt-10 mb-6">
+            <div className="card px-8 py-4">
+                <div className="card-image mt-10 mb-6">
                     <svg 
-                        class="w-10 h-10 text-blue-800 fill-current"
+                        className="w-10 h-10 text-blue-800 fill-current"
                         xmlns="http://www.w3.org/2000/svg" 
                         width="512" height="512.002" 
                         viewBox="0 0 512 512.002">
@@ -708,14 +708,14 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
                     </svg>
                 </div>
 
-                <div class="card-text">
-                    <h1 class="text-xl md:text-2xl font-bold leading-tight text-gray-900">Get the latest content update right into your inbox!</h1>
-                    <p class="text-base md:text-lg text-gray-700 mt-3 ">Join 4k+ happy subscribers!</p>
+                <div className="card-text">
+                    <h1 className="text-xl md:text-2xl font-bold leading-tight text-gray-900">Get the latest content update right into your inbox!</h1>
+                    <p className="text-base md:text-lg text-gray-700 mt-3 ">Join 4k+ happy subscribers!</p>
                 </div>
 
-                <div class="card-mail flex items-center my-10">
-                    <input type="email" class="border-l border-t border-b border-gray-200 rounded-l-md w-full text-base md:text-lg px-3 py-2 " placeholder="Enter Your Email"/>
-                    <button class="bg-blue-800 hover:bg-gray-100 hover:border-gray-100 text-white font-bold capitalize px-3 py-2 text-base md:text-lg rounded-r-md border-t border-r border-b border-blue-800 ml-3">subscribe</button>
+                <div className="card-mail flex items-center my-10">
+                    <input type="email" className="border-l border-t border-b border-gray-200 rounded-l-md w-full text-base md:text-lg px-3 py-2 " placeholder="Enter Your Email"/>
+                    <button className="bg-blue-800 hover:bg-gray-100 hover:border-gray-100 text-white font-bold capitalize px-3 py-2 text-base md:text-lg rounded-r-md border-t border-r border-b border-blue-800 ml-3">subscribe</button>
                 </div>
             </div>
         </div>
@@ -859,18 +859,18 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
       </div>
         </Link>
     </div>
-    <div class="antialiased font-nunito bg-blue-800 flex items-center justify-center h-screen">
+    <div className="antialiased font-nunito bg-blue-800 flex items-center justify-center h-screen">
    
  
-   <div class="container px-4 sm:px-8 mx-auto max-w-lg">
+   <div className="container px-4 sm:px-8 mx-auto max-w-lg">
 
       
-       <div class="wrapper bg-white rounded-sm shadow-lg">
+       <div className="wrapper bg-white rounded-sm shadow-lg">
 
-           <div class="card px-8 py-4">
-               <div class="card-image mt-10 mb-6">
+           <div className="card px-8 py-4">
+               <div className="card-image mt-10 mb-6">
                    <svg 
-                       class="w-10 h-10 text-blue-800 fill-current"
+                       className="w-10 h-10 text-blue-800 fill-current"
                        xmlns="http://www.w3.org/2000/svg" 
                        width="512" height="512.002" 
                        viewBox="0 0 512 512.002">
@@ -880,14 +880,14 @@ const Home = ({allData, allDatai, allDatap, allDatab, allDatapo, allDatav, allDa
                    </svg>
                </div>
 
-               <div class="card-text">
-                   <h1 class="text-xl md:text-2xl font-bold leading-tight text-gray-900">Get the latest content update right into your inbox!</h1>
-                   <p class="text-base md:text-lg text-gray-700 mt-3 ">Join 4k+ happy subscribers!</p>
+               <div className="card-text">
+                   <h1 className="text-xl md:text-2xl font-bold leading-tight text-gray-900">Get the latest content update right into your inbox!</h1>
+                   <p className="text-base md:text-lg text-gray-700 mt-3 ">Join 4k+ happy subscribers!</p>
                </div>
 
-               <div class="card-mail flex items-center my-10">
-                   <input type="email" class="border-l border-t border-b border-gray-200 rounded-l-md w-full text-base md:text-lg px-3 py-2 " placeholder="Enter Your Email"/>
-                   <button class="bg-blue-800 hover:bg-gray-100 hover:border-gray-100 text-white font-bold capitalize px-3 py-2 text-base md:text-lg rounded-r-md border-t border-r border-b border-blue-800 ml-3">subscribe</button>
+               <div className="card-mail flex items-center my-10">
+                   <input type="email" className="border-l border-t border-b border-gray-200 rounded-l-md w-full text-base md:text-lg px-3 py-2 " placeholder="Enter Your Email"/>
+                   <button className="bg-blue-800 hover:bg-gray-100 hover:border-gray-100 text-white font-bold capitalize px-3 py-2 text-base md:text-lg rounded-r-md border-t border-r border-b border-blue-800 ml-3">subscribe</button>
                </div>
            </div>
        </div>

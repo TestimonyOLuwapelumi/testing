@@ -87,17 +87,17 @@ const Navbar = () => {
         </div>
         
     </div>
-    <div class="w-full lg:w-full  mx-auto  drop-shadow-2xl bg-blue-800 h-[6px]">
+    <div className="w-full lg:w-full  mx-auto  drop-shadow-2xl bg-blue-800 h-[6px]">
 
     </div>
 
-    <section class="sectt lg:h-[80px] sm:h-[80px] sm:h-[57px] z-10 bg-white drop-shadow-lg">
-  <ul class="uu ">
-    <Link to={"/home"}><li class="ll"><a href="#" class="aba ">Blogs</a></li></Link>
-    <Link to={"/personality"}><li class="ll"><a href="#" class="aba bb">Personality Test</a></li></Link>
-    <Link to={"/humour"}><li class="ll"><a href="#" class="aba">Humour</a></li></Link>
-   <Link to={"/imagination"}> <li class="ll"><a href="#" class="aba">Imagination</a></li></Link>
-    {/* <li class="ll"><a href="#" class="aba">Support</a></li> */}
+    <section className="sectt lg:h-[80px] sm:h-[80px] sm:h-[57px] z-10 bg-white drop-shadow-lg">
+  <ul className="uu ">
+    <Link to={"/home"}><li className="ll"><a href="#" className="aba ">Blogs</a></li></Link>
+    <Link to={"/personality"}><li className="ll"><a href="#" className="aba bb">Personality Test</a></li></Link>
+    <Link to={"/humour"}><li className="ll"><a href="#" className="aba">Humour</a></li></Link>
+   <Link to={"/imagination"}> <li className="ll"><a href="#" className="aba">Imagination</a></li></Link>
+    {/* <li className="ll"><a href="#" className="aba">Support</a></li> */}
   </ul>
     </section>
 

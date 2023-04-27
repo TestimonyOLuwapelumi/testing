@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 </div> */}
 
-                {/* <input type="email" class="border-l border-t border-b border-gray-200 rounded-l-md lg:w-64 text-base md:text-lg px-3 py-2 lg:ml-0 mb-20 object-contain mr-5 w-20 " placeholder="Enter Your Email"/> */}
+                {/* <input type="email" className="border-l border-t border-b border-gray-200 rounded-l-md lg:w-64 text-base md:text-lg px-3 py-2 lg:ml-0 mb-20 object-contain mr-5 w-20 " placeholder="Enter Your Email"/> */}
                 <div className=' ' onClick={handleClick}>
                     <img src={!toggle?menu:close} alt="menu" className='w-[28px] h-[28px] object-contain mr-5' />
                 </div>
@@ -80,30 +80,30 @@ const Navbar = () => {
         </ul>
 
     </div>
-    <header class="w-full container mx-auto pt-20 lg:pt-20 drop-shadow-2xl bg-blue-800 ">
-      <div class="flex flex-col items-center py-1 lg:py-1 ">
+    <header className="w-full container mx-auto pt-20 lg:pt-20 drop-shadow-2xl bg-blue-800 ">
+      <div className="flex flex-col items-center py-1 lg:py-1 ">
         {/* <img src={myImage} alt="" className='h-96 w-full'/> */}
-            {/* <a class="font-bold text-gray-800 uppercase hover:text-gray-900 text-4xl lg:text-6xl text-white" href="#">
+            {/* <a className="font-bold text-gray-800 uppercase hover:text-gray-900 text-4xl lg:text-6xl text-white" href="#">
                 Thx 411
             </a>
-            <p class="text-lg text-gray-600 text-white hover:text-gray-900">
+            <p className="text-lg text-gray-600 text-white hover:text-gray-900">
                 What is the 411?
             </p> */}
         </div>
     </header>
-    <section class="sectt w-full h-[80px] z-10 bg-white drop-shadow-lg">
-      {/* <div class="divv"><h1>j</h1><h1>j</h1></div> */}
-  <ul class="uu ">
-    <Link to={"/personality"}><li class="ll"><a href="#" class="aba bb">Personality Test</a></li></Link>
-    <Link to={"/humour"}><li class="ll"><a href="#" class="aba">Humour</a></li></Link>
-   <Link to={"/imagination"}> <li class="ll"><a href="#" class="aba">Imagination</a></li></Link>
-    {/* <li class="ll"><a href="#" class="aba">Products</a></li>
-    <li class="ll"><a href="#" class="aba">Contact</a></li>
-    <li class="ll"><a href="#" class="aba">Blog</a></li>
-    <li class="ll"><a href="#" class="aba">FAQs</a></li> */}
-    <li class="ll"><a href="#" class="aba">Support</a></li>
+    <section className="sectt w-full h-[80px] z-10 bg-white drop-shadow-lg">
+      {/* <div className="divv"><h1>j</h1><h1>j</h1></div> */}
+  <ul className="uu ">
+    <Link to={"/personality"}><li className="ll"><a href="#" className="aba bb">Personality Test</a></li></Link>
+    <Link to={"/humour"}><li className="ll"><a href="#" className="aba">Humour</a></li></Link>
+   <Link to={"/imagination"}> <li className="ll"><a href="#" className="aba">Imagination</a></li></Link>
+    {/* <li className="ll"><a href="#" className="aba">Products</a></li>
+    <li className="ll"><a href="#" className="aba">Contact</a></li>
+    <li className="ll"><a href="#" className="aba">Blog</a></li>
+    <li className="ll"><a href="#" className="aba">FAQs</a></li> */}
+    <li className="ll"><a href="#" className="aba">Support</a></li>
   </ul>
-  {/* <div class="divv"><h1>j</h1><h1>j</h1></div> */}
+  {/* <div className="divv"><h1>j</h1><h1>j</h1></div> */}
     </section>
 
 
